@@ -1,6 +1,6 @@
 import express from 'express'
 import { Request, Response } from 'express'
-import { GetAllCountriesUseCase } from "../../domain/use-cases/country/get-all-countries";
+import { GetAllCountriesUseCase } from "../../domain/interfaces/use-cases/country/get-all-countries";
 
 
 export default function ContactsRouter(
